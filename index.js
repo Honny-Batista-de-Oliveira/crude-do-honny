@@ -9,6 +9,8 @@
 			const element = document.getElementById("div1");
 				element.appendChild(insertElement);
 				element.style.display='block';
+				insertElement.style.border='2px solid gray';
+				
 				
 				
 			
