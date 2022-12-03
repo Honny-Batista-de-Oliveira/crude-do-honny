@@ -8,7 +8,9 @@
 				insertElement.appendChild(nodeElement);
 			const element = document.getElementById("div1");
 				element.appendChild(insertElement);
-				element.style.display = 'block';
+				element.style.display='block';
+				
+				
 			
 			
 			
@@ -53,9 +55,6 @@
 			const element = document.getElementById("div1");
 			const child = document.getElementsByTagName("li")[0];
 			element.insertBefore(para, child);
-		}
-		function calculadora(){
-			
 		}
 		
 			
